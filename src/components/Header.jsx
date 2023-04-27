@@ -43,7 +43,7 @@ const Header = ({ account, setAccount }) => {
 
   return (
     //max-w-screen-xl 빼놓음
-    <header className="max-w-screen-xl mx-auto bg-main p-4 flex justify-between items-center font-bold">
+    <header className="min-w-screen mx-auto bg-main p-4 flex justify-between items-center font-bold">
       <Link to="/">
         <div className="flex items-center">
           <FaUikit size={28} />
